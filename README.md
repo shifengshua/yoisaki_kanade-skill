@@ -55,10 +55,6 @@ Yoisaki_Kanade-Skill/
 
 5. **开始对话**：在支持该 Skill 的 AI 中激活后，输入 `/Kanade_chat [你的问题]` 即可与「宵崎奏」对话
 
-6. **知识库**（可选部分）：如有需要，可往 `resource` 文件夹中放入txt文本文档作为知识库补充（注意！txt文件内容必须为 **UTF-8** 编码）
-
-7. **知识库源**（可选部分）：如需要补充知识库内容，可通过此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)获取《Project SEKAI COLORFUL STAGE! feat. 初音ミク》的剧情txt文本文件
-
 ### 方法二：使用原始 Markdown 文档
 
 `Initial-Markdown` 文件夹下的文档包含超过 8000 字的完整角色设定，理论上也可以直接作为 Skill 的设定材料使用。你可以：
@@ -66,6 +62,10 @@ Yoisaki_Kanade-Skill/
 - 将 Markdown 内容作为 AI 的系统提示词（System Prompt）
 - 参考其中的角色设定自行构建对话模型
 - 作为开发其他角色 Skill 的参考模板
+
+### 知识库（可选部分）
+
+1. **知识库源**：如需要补充知识库内容，可通过此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)获取《Project SEKAI COLORFUL STAGE! feat. 初音ミク》的剧情txt文本文件
 
 
 ## Skill 制作工具
@@ -122,7 +122,6 @@ Yoisaki_Kanade-Skill/
 
 ## 致谢
 
-- 感谢 [Kimi](https://www.kimi.com) 提供的数据整理支持
 - 感谢 [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) 开源项目提供的 Skill 处理能力
 - 感谢所有为 Project SEKAI 系列作品付出心血的原作者与创作者
 - 温馨提示：要好好地活下去 生きて 生きて 生きて 生きて 生きて
