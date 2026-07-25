@@ -80,8 +80,6 @@ Yoisaki_Kanade-Skill/
 | [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) | 将 Markdown 文档处理转换为 Skill 成品 |
 | DeepSeek-V4-Pro（在线 AI 模型） | 通过 API 调用生成 Skill 成品的核心内容 |
 
-> 目前仅 `Yoisaki_Kanade-Skill-202607202230.md` 由 Kimi 处理生成。
-
 
 ## 注意事项
 
