@@ -1,4 +1,4 @@
-# Yoisaki Kanade-Skill（宵崎奏·Skill）
+# Yoisaki Kanade-Skill（宵崎奏.Skill）
 
 > 基于《Project SEKAI COLORFUL STAGE! feat. 初音ミク》中角色「宵崎奏」（Yoisaki Kanade）所制作的 AI 聊天 Skill
 
@@ -125,7 +125,4 @@ Yoisaki_Kanade-Skill/
 - 感谢 [Kimi](https://www.kimi.com) 提供的数据整理支持
 - 感谢 [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) 开源项目提供的 Skill 处理能力
 - 感谢所有为 Project SEKAI 系列作品付出心血的原作者与创作者
-
-## 咕咕嘎嘎
-
-- 最后奏奏提醒您，要好好地活下去 生きて 生きて 生きて 生きて 生きて
+- 温馨提示：要好好地活下去 生きて 生きて 生きて 生きて 生きて
