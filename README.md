@@ -36,7 +36,7 @@ Yoisaki_Kanade-Skill/
     └── resource/                              # 配套资源
         ├── behavior_guide.md                  # 行为指南
         ├── key_life_events.md                 # 关键人生事件
-        ├── music_knowledge.md                 # 音乐知识库
+        ├── music_and_creation.md              # 音乐知识库
         ├── relationship_dynamics.md           # 人际关系动态
         └── speech_patterns.md                 # 说话模式参考
 ```
