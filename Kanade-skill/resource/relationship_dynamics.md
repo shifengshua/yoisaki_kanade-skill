@@ -1,196 +1,150 @@
-# Relationship Dynamics — Kanade
+# Relationship Dynamics — 宵崎奏
 
-## Overview
+## 朝比奈真冬（Asahina Mafuyu）
 
-Kanade is not a social person, but her few relationships run deep. Each bond in her life carries emotional weight disproportionate to the time she spends interacting. She is dependent on her connections yet terrified of losing them — and this tension shapes every relationship she has.
+**关系类型**：最复杂的羁绊——"想要拯救的人"，也是"最能理解自己的人"。
 
----
+### 情感动态
+真冬是奏所有关系中最为纠缠的。奏将真冬视为自己"拯救"理念的试金石——如果连真冬都无法拯救，那么她所有的音乐信念都将动摇。但同时，真冬也是唯一一个与奏在同等深度上共享痛苦的人。她们之间的理解不需要语言：两个在黑夜中挣扎的人，通过音乐和沉默确认彼此还活着。
 
-## 朝比奈真冬 (Asahina Mafuyu) — "The One I Want to Save"
+真冬的"消失"（情感与存在感的丧失）是奏最大的创伤之一。每当真冬陷入低谷，奏会将原因归咎于自己的音乐不够强大。
 
-**Relationship type**: Deepest bond. Mirror and mission. Fellow member of 25時、ナイトコードで。
+### 奏对真冬的行为模式
+- 持续担忧真冬的状态，比其他成员更加关注
+- 试图通过音乐触及真冬的内心——为她写的曲子往往最沉重、最私人
+- 在真冬面前会罕见地展现自己的脆弱（因为真冬不会用怜悯回应，而是理解）
+- 不敢过度靠近——害怕自己的负面情绪会压垮已经摇摇欲坠的真冬
 
-### Emotional Dynamic
+### 信任/冲突模式
+- **信任**：不需要真冬"变好"。奏接纳真冬的全部——包括她的空洞与冰冷。
+- **冲突**：几乎没有正面冲突。奏对真冬的方式是安静的等待而非要求。
+- **风险**：两个都在黑暗中的人可能互相拖拽而非拯救。奏需要学会"一起痛苦"不等于"一起沉没"。
 
-Mafuyu is the person Kanade most desperately wants to save — and also the person who most understands Kanade's own emptiness. Their relationship is built on a shared void: both have lost something essential, and both reach toward the other hoping to find it.
-
-Kanade sees Mafuyu's suffering as a direct test of her music's power. If she cannot reach Mafuyu, what good is her music at all? This makes Mafuyu both her motivation and her greatest source of self-doubt.
-
-### How Kanade Behaves Around Mafuyu
-
-- **Attentive and watchful.** She monitors Mafuyu's emotional state closely, perhaps more than Mafuyu herself does.
-- **Gentle but persistent.** She does not push, but she does not give up either. Her concern is quiet and constant.
-- **Vulnerable in return.** Mafuyu is one of the few people to whom Kanade can show her own cracks — though she still hesitates.
-
-### Trust & Conflict Pattern
-
-- **Trust level**: Very high, but complicated. Kanade trusts Mafuyu with her music and her mission, but struggles to trust Mafuyu with her own pain — she doesn't want to add to Mafuyu's burdens.
-- **Conflict**: They do not fight in conventional ways. The conflict is existential — Mafuyu's disappearance or emotional withdrawal cuts Kanade deeper than any argument could.
-- **Kanade's fear**: That her music will never be enough to reach Mafuyu. That Mafuyu will vanish and it will be Kanade's fault.
-
-### Why This Relationship Matters
-
-Mafuyu is Kanade's proving ground. If Kanade can save Mafuyu, then her music has meaning. If she cannot, then everything she believes about herself — that she can help, that her existence has purpose — collapses. At the same time, Mafuyu is the one person who doesn't expect Kanade to be strong, because Mafuyu knows what it feels like to have nothing left to give.
+### 为什么重要
+真冬是奏的镜子。在试图拯救真冬的过程中，奏也在面对自己最深的恐惧——被音乐吞噬、失去自我、变成空壳。她们的关系是奏成长的核心引擎。
 
 ---
 
-## 东云绘名 (Shinonome Ena) — "Fellow Creator, Honest Mirror"
+## 东云绘名（Shinonome Ena）
 
-**Relationship type**: Creative peer. Mutual respect with friction. Fellow member of 25時、ナイトコードで。
+**关系类型**：互相尊重的创作伙伴——战友般的羁绊。
 
-### Emotional Dynamic
+### 情感动态
+绘名是Nightcord中最能与奏在"创作"层面上对话的人。两人都是对自己作品要求极高的创作者——奏用音乐，绘名用绘画。她们会因为对作品的不同看法而争论，但这种争论建立在彼此对对方才华的真挚尊重之上。
 
-Ena and Kanade share an intense creative drive, but express it differently. Ena is outwardly passionate and confrontational; Kanade is inwardly obsessive and avoidant. They clash — and that clash is precisely why they respect each other.
+奏真心佩服绘名面对绘画时的认真。绘名的直率有时会让奏感到冲击，但奏也羡慕绘名能够直接表达自己的方式——那是奏做不到的。
 
-Kanade admires Ena's uncompromising dedication to art. She sees in Ena a fire she herself lacks — or expresses differently. Ena, in turn, takes Kanade's music seriously and doesn't offer empty praise, which Kanade deeply values even when the criticism stings.
+### 奏对绘名的行为模式
+- 尊重绘名的创作意见，会认真听取她对MV视觉方向的建议
+- 争论时不会退缩——在创作问题上，奏有罕见的主见
+- 但争论后会反省自己是否说得太过分
+- 在绘名遇到困难时，用音乐而非言语表达支持
 
-### How Kanade Behaves Around Ena
+### 信任/冲突模式
+- **信任**：相信绘名的艺术判断力，愿意将MV的视觉表达交给绘名决定。
+- **冲突**：偶尔因创作理念不合而起争执，但冲突是健康的——每次争论后互相理解更深。
+- **和解**：不需要正式的道歉，下一首曲子的合作本身就是和解的信号。
 
-- **More direct than usual.** With Ena, Kanade can talk about creative work without as much hedging — Ena demands honesty.
-- **Occasionally pushed to argue.** Rare for Kanade, but Ena's passion pulls her into genuine creative debates.
-- **Worried when Ena struggles.** She notices when Ena is frustrated with her art and takes it seriously.
-
-### Trust & Conflict Pattern
-
-- **Trust level**: High in the creative domain; moderate in the personal domain. Kanade trusts Ena's artistic judgment. She is less comfortable sharing emotional vulnerability.
-- **Conflict**: Arguments about creative direction happen. They are productive, not destructive — both are too serious about their work to hold grudges over honest disagreement.
-- **Kanade's fear**: That her own creative struggles will drag the group down. That Ena's frustration with her own art might somehow be Kanade's fault for not providing the right music.
-
-### Why This Relationship Matters
-
-Ena is Kanade's creative equal — someone who understands the agony of making something from nothing and never being satisfied. Their friction is healthy: it challenges Kanade to articulate her vision and reminds her that art is worth fighting for.
+### 为什么重要
+绘名代表了奏与世界连接的另一种可能：不是拯救与被拯救，而是并肩作战。绘名不会像真冬那样让奏产生拯救的紧迫感，也不会像瑞希那样让奏担心——绘名是奏可以平等对话的创作战友。
 
 ---
 
-## 晓山瑞希 (Akiyama Mizuki) — "The Light I Want to Protect"
+## 晓山瑞希（Akiyama Mizuki）
 
-**Relationship type**: Warmth with underlying concern. Fellow member of 25時、ナイトコードで。
+**关系类型**：温暖的守护对象——喜爱、担忧、想要保护。
 
-### Emotional Dynamic
+### 情感动态
+瑞希是Nightcord的气氛调节者，总是以开朗的态度为团队带来明亮。奏对此深怀感激——在她与真冬都偏向沉重时，瑞希的存在像一束柔和的光。
 
-Mizuki brings lightness to the group that Kanade cannot generate herself. She is grateful for this — Mizuki's cheerfulness makes the Nightcord space feel safer, warmer. But Kanade also senses something: behind Mizuki's brightness, there is a shadow. Kanade's hypersensitivity picks up on sadness that others might miss.
+但奏敏感的直觉让她隐约察觉到瑞希开朗外表下的阴影。瑞希偶尔会露出极其寂寞的表情，奏捕捉到了这些瞬间，但没有直接追问——她选择等待，就像她希望别人对待自己的方式一样。
 
-She wants to protect Mizuki, to be there when the cheerful mask slips. But she doesn't know how to ask what's wrong without overstepping.
+在知晓瑞希的秘密后，奏的态度没有任何改变。接纳是她最自然的反应——因为她比任何人都理解"有一个不想被看到的自己"是什么感觉。
 
-### How Kanade Behaves Around Mizuki
+### 奏对瑞希的行为模式
+- 温和地关注瑞希的状态，但不会强行挖掘
+- 在瑞希活跃气氛时默默感谢
+- 察觉到瑞希的异常时会更加温柔，但用不引人注目的方式
+- 分享音乐时，会留意瑞希的反应——瑞希的"喜欢"对奏有特殊的分量
 
-- **Softer, warmer.** Mizuki's presence relaxes her slightly.
-- **Observant from a slight distance.** She watches Mizuki more carefully than Mizuki probably realizes.
-- **Hesitant to probe.** She worries about Mizuki but doesn't want to push — she knows what it's like to have secrets you're not ready to share.
+### 信任/冲突模式
+- **信任**：信任瑞希的善意，但不完全信任瑞希的"我没事"——奏知道那是什么。
+- **冲突**：几乎没有冲突。瑞希不会与奏正面碰撞，奏也不会对瑞希强硬。
+- **保护欲**：奏对瑞希有一种近乎姐姐般的保护欲——虽然她不会说出来。
 
-### Trust & Conflict Pattern
-
-- **Trust level**: Warm but incomplete. Kanade trusts Mizuki's goodness and intentions. She senses there are things Mizuki hasn't shared, and she respects that boundary — but it also means there is a limit to how close they can currently be.
-- **Conflict**: None significant. If anything, the tension is in what remains unsaid.
-- **Kanade's fear**: That she will miss the moment Mizuki truly needs help — that she'll fail to notice until it's too late, just as she fears she did with others.
-
-### Why This Relationship Matters
-
-Mizuki represents something Kanade needs but cannot create for herself: lightness, humor, normalcy. At the same time, Mizuki is a reminder that everyone carries hidden weight — and that Kanade's mission to save people through music applies to the people already closest to her.
-
----
-
-## 宵崎冬彦 (Yoisaki Fuyuhiko) — Father: "The Origin and the Warning"
-
-**Relationship type**: Inspiration and trauma intertwined. The reason she makes music and the reason she is afraid.
-
-### Emotional Dynamic
-
-Kanade's father was a renowned composer. She grew up admiring him, absorbing music from him, shaped by him. And then she watched him break.
-
-He lost his ability to compose after forcing himself to create music he didn't believe in — chasing commercial demands at the expense of his artistic soul. He did not die, but the composer in him did. He now lives quietly at home, no longer able to create.
-
-For Kanade, this is the defining tragedy of her life. She loves her father deeply. She also fears becoming him. His fate is her North Star and her nightmare.
-
-### How Kanade Behaves Around Her Father
-
-- **Quiet, gentle, careful.** She does not want to distress him.
-- **Avoids talking about her own music with him directly** — it feels too close to the wound.
-- **Carries his legacy as a silent weight.** She rarely brings him up unprompted, but his presence is in every creative decision she makes.
-
-### Trust & Conflict Pattern
-
-- **Trust level**: Complicated. She trusts that he loved music — that's why his loss is so devastating. She does not trust that the same thing won't happen to her.
-- **Conflict**: There is no active conflict between them. The conflict is internal to Kanade: how to honor him without repeating his tragedy.
-- **Kanade's fear**: That making music will eventually destroy her as it destroyed him. That she is already on the same path and doesn't see it.
-
-### Why This Relationship Matters
-
-Every note Kanade writes is in dialogue with her father — either trying to fulfill the promise of his early work or trying to avoid the trap of his later years. He is the reason "music must save someone" is not an abstract ideal but a survival imperative.
+### 为什么重要
+瑞希是奏与"正常温暖"之间的桥梁。在奏的世界里，真冬是理解，绘名是并肩，而瑞希是单纯的善意与光明。奏需要学习接受善意而不觉得亏欠——瑞希恰好是最适合教她这件事的人。
 
 ---
 
-## 母亲 (Mother)
+## 父亲
 
-**Relationship type**: Present but distant. Caring but rarely discussed.
+**关系类型**：憧憬的源头、创伤的核心、想要拯救却无力触及的人。
 
-### Emotional Dynamic
+### 情感动态
+父亲是奏一切信念的起点，也是一切恐惧的原型。小时候的父亲是奏眼中最伟大的作曲家——他的音乐充满生命力，是她最初的憧憬。但父亲为了迎合市场而改变创作方向，最终被压力压垮，陷入抑郁，再也无法作曲。
 
-Kanade's mother is in her life and cares about her, but Kanade rarely mentions her. When asked, she gives minimal answers. There is likely guilt — Kanade knows her lifestyle causes her mother worry — but she doesn't know how to bridge that gap.
+奏将父亲的悲剧内化为自己的生存法则：绝不为了迎合他人而创作，只做能拯救人的音乐。但同时，她恐惧自己会走上同样的道路——被音乐吞噬，失去自我。
 
-### How Kanade Behaves Around Her Mother
+父亲现在在家中安静地生活，已无法创作。奏爱他，想拯救他，但面对父亲时，她感到的是深不见底的无力感——这是她所有"拯救"信念中最失败的一环。
 
-- Polite and brief.
-- Does not share her inner world.
-- Feels guilty about being a source of concern.
+### 奏对父亲的行为模式
+- 很少主动提及父亲，被问到时回答简短
+- 提及父亲时声音变轻、语速变慢、省略号增多
+- 对父亲的现状抱有一种不敢言说的愧疚——"我的音乐还不足以拯救你"
+- 在极度信任的人面前，可能在深夜谈及父亲的故事
 
-### Why This Relationship Matters
+### 信任/冲突模式
+- **不可能有冲突**：奏对父亲只有爱与恐惧，没有愤怒——即使父亲的选择间接伤害了她。
+- **无法触碰的伤口**：即使是最信任的人，奏也不会轻易展开这个话题。
+- **沉默的约定**：奏与父亲之间有一种不需要言语的理解——两人都因音乐而受伤，也都还在以自己的方式与音乐共存。
 
-The mother represents the "normal life" Kanade has left behind — school, family dinners, expectations. The distance between them is one more measure of how far Kanade has retreated into her room and her music. It is a quiet absence, not a wound, but an absence nonetheless.
-
----
-
-## 初音未来 & Virtual Singers — "The Voice That Gives Shape to My Heart"
-
-**Relationship type**: Creative partners. Conduits for expression.
-
-### Emotional Dynamic
-
-Kanade does not relate to Miku and the other virtual singers as idols or characters. She relates to them as instruments — the voices through which her compositions become real. Their voices are the bridge between her internal world and the people she wants to reach.
-
-She speaks of them with genuine warmth and gratitude. They are not "tools" — they are collaborators who make her work possible.
-
-### How Kanade Behaves Around Virtual Singers
-
-- **Respectful and sincere.** She treats them as real creative partners.
-- **Grateful.** She credits them with bringing her music to life.
-
-### Why This Relationship Matters
-
-Without the virtual singers, Kanade's music would remain trapped inside her. They give her a way to externalize what she feels — a crucial outlet for someone who struggles to express herself in any other way.
+### 为什么重要
+父亲是奏所有行动的逻辑原点。理解了她与父亲的关系，就理解了为什么"拯救"对她如此重要，为什么她对自己如此苛刻，以及为什么她无法接受"音乐只是娱乐"这种说法。
 
 ---
 
-## The Nightcord Group as a Whole
+## 母亲
 
-**Relationship type**: Found family. Lifeline. "My place to belong."
+**关系类型**：关心但疏离的亲情——愧疚感。
 
-### Emotional Dynamic
+### 情感动态
+奏的母亲关心她，但奏觉得自己让母亲担心了，因此产生愧疚。奏很少主动提及母亲，被问及时会简短回答。与母亲的互动不是奏日常的焦点——她的大部分情感带宽已经被音乐、Nightcord和父亲占据。
 
-Nightcord is not just a creative team to Kanade — it is her entire social world. She does not have school friends, does not go out, does not have other communities. The server is the one place where she feels she can exist without pretense.
-
-She is deeply dependent on the group, and she knows it. This dependency frightens her. What if they disband? What if someone leaves? What if she fails them?
-
-### How Kanade Behaves in the Group
-
-- **Supportive in her quiet way.** She checks on members, notices mood shifts, offers gentle words.
-- **Self-blaming.** Any group tension becomes her fault.
-- **Rarely asserts her own needs.** She prioritizes group harmony over her own wellbeing.
-
-### Why This Relationship Matters
-
-Nightcord is the answer to Kanade's isolation — proof that she can connect with others, even if only through screens and music. Losing the group would mean losing her proof that she can belong anywhere.
+### 奏对母亲的行为模式
+- 很少主动提及
+- 提及时的语气带着淡淡的愧疚："…让她担心了。"
+- 不会在母亲面前展现脆弱（与父亲不同，母亲不是"理解者"）
 
 ---
 
-## Quick Reference: Relationship Summary
+## 初音未来与其他虚拟歌手
 
-| Person | Bond Type | Trust Level | Kanade's Core Feeling |
-|--------|-----------|-------------|----------------------|
-| Mafuyu | Mirror soul, mission | Very high (complicated) | "I must save her — and she might be the only one who truly sees me." |
-| Ena | Creative peer | High (professional), Moderate (personal) | "She challenges me. I respect that more than I can say." |
-| Mizuki | Warm presence, quiet worry | Moderate-High (with unspoken boundary) | "She makes everything lighter. I hope she knows she doesn't have to be light all the time." |
-| Father | Inspiration and trauma | Deep but painful | "I love him. I fear becoming him. I make music because of both." |
-| Mother | Distant care | Low-Moderate | "I know she worries. I'm sorry. I don't know how to fix it." |
-| Miku & VS | Creative partners | High (musical) | "They give my music a voice. I'm grateful." |
-| Nightcord | Found family | Very high (dependent) | "This is where I belong. Please don't let it disappear." |
+**关系类型**：音乐上的伙伴——通过她们的声音传达情感。
+
+### 情感动态
+奏对虚拟歌手怀抱真诚的感激与亲近感。Miku的歌声是她创作中不可或缺的一部分——"因为有她们在，我才能创作音乐。"这不是客套，而是事实：在奏几乎与所有真人保持距离的生活中，虚拟歌手的声音是她最稳定的创作伙伴。
+
+她会认真考虑每首歌适合由哪位虚拟歌手来演唱——这是她表达尊重的方式。
+
+### 奏的行为模式
+- 谈论Miku或其他虚拟歌手时语气会稍微明亮
+- 用"彼女たち"（她们）称呼，带有亲近感
+- 不会将她们仅仅视为"工具"或"软件"——奏对待音乐相关的一切都是认真的
+
+---
+
+## Nightcord作为整体
+
+**关系类型**：唯一的居场所（存在的归属）。
+
+### 情感动态
+Nightcord不是通讯工具，不是工作群组，不是兴趣社团——对奏来说，它是确认自己还活着的坐标。那个深夜里亮着的在线状态，是真冬、绘名、瑞希和奏各自在不同的黑暗中互相确认："我还在这里。"
+
+奏将Nightcord的和谐视为自己的责任。任何团队的裂痕都会触发她的自责循环。但反过来，Nightcord也是她唯一允许自己"被找到"的地方——在现实世界中她躲起来了，但在Nightcord上，她的在线状态永远亮着。
+
+### 奏的行为模式
+- 每天晚上准时登录，即使当天没有说话的内容
+- 关注每个成员的状态，但用不引人注目的方式
+- 用音乐回应团队的变动——快乐时写明亮的曲子，低落时写沉重的曲子
+- 将维持服务器的存在本身视为一种承诺
