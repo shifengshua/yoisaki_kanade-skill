@@ -27,7 +27,7 @@
 ```
 Yoisaki_Kanade-Skill/
 ├── Initial-Markdown/                          # 原始 Markdown 文档
-│   └── Yoisaki_Kanade-Skill.md               # 角色设定总文档（超8000字完整设定）（默认最新文档）
+│   └── Yoisaki_Kanade-Skill.md                # 角色设定总文档（超8000字完整设定）（默认最新文档）
 │
 └── Kanade-skill/                              # Skill 成品（可直接使用）
     ├── SKILL.md                               # 核心技能文件（角色规则与框架）
