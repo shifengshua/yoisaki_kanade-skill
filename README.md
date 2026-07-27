@@ -2,9 +2,9 @@
 
 # 宵崎奏.Skill
 
-> 将心中的“她”化作温暖的Skill，欢迎加入二次元数字生命！
+### 将心中的“她”化作温暖的Skill，欢迎加入二次元数字生命！
 
-- 基于《Project SEKAI COLORFUL STAGE! feat. 初音ミク》中角色「宵崎奏」（Yoisaki Kanade）所制作的 AI 聊天 Skill
+> 基于《Project SEKAI COLORFUL STAGE! feat. 初音ミク》中角色「宵崎奏」（Yoisaki Kanade）所制作的 AI 聊天 Skill
 
 </div>
 
