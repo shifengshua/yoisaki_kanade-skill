@@ -27,7 +27,7 @@
 
 ## 文件结构
 
->  `Initial-Markdown` 文件夹下文件名后带日期的为旧副本存档， `Yoisaki_Kanade-Skill.md` 默认为最新文档
+> `Initial-Markdown`文件夹下文件名后带日期的为旧副本存档
 
 ```
 Yoisaki_Kanade-Skill/
@@ -57,15 +57,13 @@ Yoisaki_Kanade-Skill/
    > 建议在任意盘符根目录下新建一个文件夹用于存放，避免文件散乱影响其他软件或系统
 
 3. **导入 AI 平台**：将解压出的整个 `Kanade-skill` 文件夹拖入任意支持 Skill 的 AI 聊天平台即可使用
-   > 部分AI可能需要将解压出的 `Kanade-skill` 文件夹单独压缩成一个压缩包才能上传导入
+   > 部分AI可能需要将解压出的 `Kanade-skill` 文件夹单独压缩成一个压缩包才能上传
 
 5. **开始对话**：在支持该 Skill 的 AI 中激活后，输入 `/Kanade_chat [你的问题]` 即可与「宵崎奏」对话
 
 ### 方法二：使用原始 Markdown 文档
 
-`Initial-Markdown` 文件夹下的文档包含超过 8000 字的完整角色设定，理论上也可以直接作为 Skill 的设定材料使用。
-
-你可以：
+`Initial-Markdown` 文件夹下的文档包含超过 8000 字的完整角色设定，理论上也可以直接作为 Skill 的设定材料使用。你可以：
 
 - 将 Markdown 内容作为 AI 的系统提示词（System Prompt）
 - 参考其中的角色设定自行构建对话模型
@@ -73,7 +71,7 @@ Yoisaki_Kanade-Skill/
 
 ### 知识库（可选部分）
 
-**知识库源**：如需要补充知识库内容，可通过此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)获取《Project SEKAI COLORFUL STAGE! feat. 初音ミク》的剧情txt文本文件
+1. **知识库源**：如需要补充知识库内容，可通过此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)获取《Project SEKAI COLORFUL STAGE! feat. 初音ミク》的剧情txt文本文件
 
 
 ## Skill 制作工具
@@ -83,8 +81,8 @@ Yoisaki_Kanade-Skill/
 | 工具/项目 | 用途 |
 |-----------|------|
 | [Kimi](https://www.kimi.com) | 数据收集及整理，生成 `Initial-Markdown` 下的原始 Markdown 文档 |
-| [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) | 提供图形化界面，将 Markdown 文档处理转换为 Skill 成品 |
-| [Qwen3.5-9B-Q4_K_M](https://www.modelscope.cn/models/unsloth/Qwen3.5-9B-GGUF)（本地 AI 模型） | 通过本地 API 调用生成 Skill 成品的核心内容 |
+| [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) | 将 Markdown 文档处理转换为 Skill 成品 |
+| DeepSeek-V4-Pro（在线 AI 模型） | 通过 API 调用生成 Skill 成品的核心内容 |
 
 
 ## 注意事项
@@ -107,13 +105,11 @@ Yoisaki_Kanade-Skill/
 
 请尊重角色设定，以获得更好的对话体验。
 
-> 温馨提示：若移除 `limit.md` 文件和 `SKILL.md` 中与其对应的文件路径引导，再搭配上含有《Project SEKAI COLORFUL STAGE! feat. 初音ミク》剧情的额外知识库，理论上可以产出同人文（虽然不建议这么做）
-
 
 ## 联系与反馈
 
 - **QQ**：3593853319
-- **邮箱**：shifengshua@outlook.com
+- **邮箱**：shifengshua@126.com
 
 
 ## 声明
@@ -130,6 +126,6 @@ Yoisaki_Kanade-Skill/
 
 ## 致谢
 
-- 感谢 [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) 开源项目提供的图形化界面工具
+- 感谢 [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) 开源项目提供的 Skill 处理能力
 - 感谢所有为 Project SEKAI 系列作品付出心血的原作者与创作者
 - 温馨提示：要好好地活下去 生きて 生きて 生きて 生きて 生きて
