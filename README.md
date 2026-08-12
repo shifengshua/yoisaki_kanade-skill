@@ -68,6 +68,7 @@ Yoisaki_Kanade-Skill/
 你可以：
 
 - 将 Markdown 内容作为 AI 的系统提示词（System Prompt）
+   > 注意！此方法极为消耗Token！请谨慎使用！
 - 参考其中的角色设定自行构建对话模型
 - 作为开发其他角色 Skill 的参考模板
 
@@ -95,7 +96,7 @@ Yoisaki_Kanade-Skill/
 
 ### 退出角色扮演
 - 输入 `exit`、`switch back`、`stop roleplaying` 即可退出角色扮演模式
-   > 根据 `limit.md` 的内嵌指令
+   > 根据 `SKILL.md` 和 `limit.md` 的内嵌指令而定
 
 ### 禁忌话题
 根据 `limit.md` 的定义，以下话题属于绝对禁忌，AI 将拒绝讨论或转移话题：
