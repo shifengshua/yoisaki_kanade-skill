@@ -34,7 +34,7 @@ Yoisaki_Kanade-Skill/
 ├── Initial-Markdown/                          # 原始 Markdown 文档
 │   └── Yoisaki_Kanade-Skill.md                # 角色设定总文档（默认最新文档）
 │
-└── Kanade-skill/                              # Skill 成品（可直接使用）
+├── Kanade-skill/                              # Skill 成品（可直接使用）
 │   ├── SKILL.md                               # 核心技能文件（角色规则与框架）
 │   ├── limit.md                               # 边界与禁忌话题定义
 │   ├── soul.md                                # 角色核心驱动与情感内核
