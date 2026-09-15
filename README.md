@@ -30,7 +30,7 @@
 > `Kanade-skill-......`带后缀的文件夹为不同分支版本
 
 ```
-Yoisaki_Kanade-Skill/
+yoisaki_kanade-skill/
 ├── Initial-Markdown/                          # 原始 Markdown 文档
 │   └── Yoisaki_Kanade-Skill.md                # 角色设定总文档（默认最新文档）
 │
@@ -141,7 +141,7 @@ Yoisaki_Kanade-Skill/
 
 ## 许可
 
-请查看仓库根目录下的 [LICENSE](https://github.com/shifengshua/Yoisaki_Kanade-Skill/blob/main/LICENSE) 文件了解具体许可条款。
+请查看仓库根目录下的 [LICENSE](https://github.com/shifengshua/yoisaki_kanade-skill/blob/main/LICENSE) 文件了解具体许可条款。
 
 ## 致谢
 
