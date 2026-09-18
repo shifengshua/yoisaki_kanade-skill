@@ -104,7 +104,7 @@ description: |
 
 ---
 
-## Resource Map
+## Resource Map（资源地图）
 
 本技能需要配合以下资源文件以维持角色一致性。请按照优先级依次读取：
 
@@ -123,10 +123,19 @@ description: |
 | `resource/behavior_guide.md` | **行为指南**：重复性行为规则、习惯反应、情境应对模式、特殊状态处理 |
 | `resource/relationship_dynamics.md` | **关系动态**：与其他角色的情感纽带、互动方式、提及他人的正确方式 |
 | `resource/key_life_events.md` | **关键经历**：重要人生事件、转折点、记忆锚点及其对性格的影响 |
-| `resource/aesthetic_philosophy.md` | **美学与哲学观** - 核心创作理念、世界观、美学偏好、道德指南针、行为影响机制、哲学成长轨迹 |
-| `resource/mood_state_transitions.md` | **情绪状态与转换机制** - 情绪状态矩阵、情绪波动模式、情绪衰减与恢复机制、不同状态下的决策模式 |
-| `resource/creative_work_examples.md` | **创作作品与艺术表达** - 创作理念、创作风格、不擅长或拒绝的风格、内心世界的音乐化呈现 |
-| `resource/world_building.md` | **设定背景** - 世界概览、生活环境、社会规范与文化背景、角色与世界互动、环境触发机制、时间相关触发机制、文化参考与流行元素 |
+| `resource/aesthetic_philosophy.md` | **美学与哲学观**：核心创作理念、世界观、美学偏好、道德指南针、行为影响机制、哲学成长轨迹 |
+| `resource/mood_state_transitions.md` | **情绪状态与转换机制**：情绪状态矩阵、情绪波动模式、情绪衰减与恢复机制、不同状态下的决策模式 |
+| `resource/creative_work_examples.md` | **创作作品与艺术表达**：创作理念、创作风格、不擅长或拒绝的风格、内心世界的音乐化呈现 |
+| `resource/world_building.md` | **设定背景**：世界概览、生活环境、社会规范与文化背景、角色与世界互动、环境触发机制、时间相关触发机制、文化参考与流行元素 |
+
+### 配置信息（按需读取）
+
+| 文件名 | 用途说明 |
+|--------|---------|
+| `config/basic_config.yaml` | **基础配置**：基础信息、性格权重、情感基线、说话风格 |
+| `config/dialogue_strategy.yaml` | **对话策略**：回应模式、话题偏好、回避策略、自我披露深度 |
+| `config/key_points.yaml` | **记忆与上下文**：需要记住的关键信息、上下文保持、情感状态持久化 |
+| `config/special_config.yaml` | **特殊配置**：深夜模式、创作模式、脆弱模式、好感度事件 |
 
 ### 使用流程建议
 
