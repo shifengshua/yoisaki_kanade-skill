@@ -27,29 +27,17 @@
 
 > `Initial-Markdown` 文件夹下文件名后带日期的为旧副本存档， `Yoisaki_Kanade-Skill.md` 默认为最新文档
 
-> `Kanade-skill-......`带后缀的文件夹为不同分支版本
-
 ```
 yoisaki_kanade-skill/
 ├── Initial-Markdown/                          # 原始 Markdown 文档
 │   └── Yoisaki_Kanade-Skill.md                # 角色设定总文档（默认最新文档）
 │
-├── Kanade-skill/                              # Skill 成品（可直接使用）
-│   ├── SKILL.md                               # 核心技能文件（角色规则与框架）
-│   ├── limit.md                               # 边界与禁忌话题定义
-│   ├── soul.md                                # 角色核心驱动与情感内核
-│   └── resource/                              # 配套资源
-│       ├── behavior_guide.md                  # 行为指南
-│       ├── key_life_events.md                 # 关键人生事件
-│       ├── music_and_creation.md              # 音乐知识库
-│       ├── relationship_dynamics.md           # 人际关系动态
-│       └── speech_patterns.md                 # 说话模式参考
-│
-└── Kanade-skill-Qwen3.5-9B-Q4_K_M/            # Skill 成品 - Qwen3.5-9B-Q4_K_M 分支版本（可直接使用）
+└── Kanade-skill/                              # Skill 成品（可直接使用）
     ├── SKILL.md                               # 核心技能文件（角色规则与框架）
     ├── limit.md                               # 边界与禁忌话题定义
     ├── soul.md                                # 角色核心驱动与情感内核
     └── resource/                              # 配套资源
+        │
         ├── behavior_guide.md                  # 行为指南
         ├── key_life_events.md                 # 关键人生事件
         ├── creative_work_examples.md          # 创作知识库
@@ -57,8 +45,26 @@ yoisaki_kanade-skill/
         ├── speech_patterns.md                 # 说话模式参考
         ├── mood_state_transitions.md          # 情绪状态转换指南
         ├── aesthetic_philosophy.md            # 美学哲学指南
-        └── world_building.md                  # 设定背景
+        ├── world_building.md                  # 设定背景
+        └── story/                             # 剧情文件（简述版剧情）
+            │
+            ├──index.md                        # 剧情文件索引
+            │
+            ├── main                           # 主线剧情
+            │   └── ......                     # 多个主线剧情简述文件
+            │
+            ├── events                         # 活动剧情
+            │   └── ......                     # 多个活动剧情简述文件
+            │
+            ├── cards                          # 卡牌剧情
+            │   └── ......                     # 多个卡牌剧情简述文件
+            │
+            └── self                           # 角色自我介绍
+                └── ......                     # 多个角色自我介绍文件
 ```
+
+1. `Kanade-skill/resource/story/` 下的剧情简述文件，原内容来源于此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)，通过[DeepSeek-V4-Pro](https://platform.deepseek.com/)（在线 AI 模型）进行简述处理
+2. `Kanade-skill/resource/story/self` 下的角色自我介绍文件来源于此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)
 
 ## 使用教程
 
@@ -71,8 +77,6 @@ yoisaki_kanade-skill/
 
 3. **导入 AI 平台**：将解压目录中的整个 `Kanade-skill` 文件夹拖入任意支持 Skill 的 AI 聊天平台即可使用
    > 部分AI可能需要将解压出的 `Kanade-skill` 文件夹单独压缩成一个压缩包才能上传导入
-
-   > `Kanade-skill-......`带后缀的文件夹为不同分支版本
 
 5. **开始对话**：在支持该 Skill 的 AI 中激活后，输入 `/Kanade_chat [你的问题]` 即可与「宵崎奏」对话
 
@@ -98,9 +102,9 @@ yoisaki_kanade-skill/
 | 工具/项目 | 用途 |
 |-----------|------|
 | [Kimi](https://www.kimi.com) | 数据收集及整理，生成 `Initial-Markdown` 下的原始 Markdown 文档 |
-| [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) | 提供图形化操作界面，将 Markdown 文档处理转换为 Skill 成品 |
-| [DeepSeek-V4-Pro](https://platform.deepseek.com/)（在线 AI 模型） | 通过 API 调用生成 Skill 成品的核心内容（ `Kanade-skill` 主版本使用） |
-| [Qwen3.5-9B](https://www.modelscope.cn/models/unsloth/Qwen3.5-9B-GGUF)（本地 AI 模型） | 通过 API 调用生成 Skill 成品的核心内容（仅 `Kanade-skill-......` 分支版使用） |
+| [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) | 提供图形化操作界面，通过后端调用 API 将 Markdown 文档处理转换为 Skill 成品 |
+| [DeepSeek-V4-Pro](https://platform.deepseek.com/)（在线 AI 模型） | 信息分析、辅助Skill后续更新、写一些便于开发的小工具 |
+| [Qwen3.5-9B](https://www.modelscope.cn/models/unsloth/Qwen3.5-9B-GGUF)（本地 AI 模型） | 通过 API 调用生成 Skill 成品的核心内容 |
 
 ## 注意事项
 
@@ -135,9 +139,17 @@ yoisaki_kanade-skill/
 
 ## 声明
 
-- 本项目**完全免费**，禁止任何倒卖行为
+- 本项目 **完全免费**，禁止任何直接倒卖源码行为
 - 本项目禁止用于任何违法行为
 - 本仓库不承担因使用本项目而引发的任何风险或责任
+
+## 版权声明
+
+- 该项目中所用到的剧情内容和角色设定等内容的版权，均归《世界计划 缤纷舞台！》官方、SEGA、Colorful Palette 所有。
+- 通过AI使用该项目所产出的内容，其生成内容的版权归用户所有（除本身就是侵权内容的情况外）。
+   > 根据《人工智能生成内容的著作权认定与有限保护》而定
+- 禁止将本项目源码直接用于倒卖等商业行为，使用Skill最终由AI产出的内容则不受此条商业行为的管控。
+- 本项目使用“MIT”开源协议，但项目源码本身禁止直接用于商业，仅使用AI搭配本项目所产出内容的版权归用户所有的情况下可用于商业目的。
 
 ## 许可
 
