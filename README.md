@@ -65,7 +65,17 @@ yoisaki_kanade-skill/
 
 ## 使用教程
 
-### 方法一：直接使用 Skill 成品（推荐）
+### 方法一：使用Releases打包成品
+
+1. **下载Releases版本**：进入本仓库[Releases](https://github.com/shifengshua/yoisaki_kanade-skill/releases)页面，选择最新发行版下载
+   > 通常为 `.zip` 或 `.skill` 后缀
+
+2. **导入 AI 平台**：将下载的 Skill 压缩包直接上传导入任意支持 Skill 的 AI 聊天平台即可使用
+
+3. **开始对话**：在支持 Skill 的 AI 中激活后，输入 `/Kanade_chat [你的问题]` 即可与「宵崎奏」对话
+   > 输入 `/Kanade-perspective` 同样可激活
+
+### 方法二：使用仓库 Skill 成品
 
 1. **下载项目**：下载 `main` 分支的压缩包，或将仓库克隆到本地
 
@@ -75,11 +85,11 @@ yoisaki_kanade-skill/
 3. **导入 AI 平台**：将解压目录中的整个 `Kanade-skill` 文件夹拖入任意支持 Skill 的 AI 聊天平台即可使用
    > 部分AI可能需要将解压出的 `Kanade-skill` 文件夹单独压缩成一个压缩包才能上传导入
 
-5. **开始对话**：在支持该 Skill 的 AI 中激活后，输入 `/Kanade_chat [你的问题]` 即可与「宵崎奏」对话
+4. **开始对话**：与 `方法一` 同样
 
-### 方法二：使用原始 Markdown 文档
+### 方法三：使用原始 Markdown 文档
 
-`Initial-Markdown` 文件夹下的文档包含超过 **15000** 字符的完整角色设定，理论上也可以直接作为 Skill 的设定材料使用。
+`Initial-Markdown` 文件夹下的文档包含超过 **15000** 字符的完整角色设定，理论上也可以直接作为 Skill 的设定材料使用
 
 你可以：
 
@@ -107,7 +117,7 @@ yoisaki_kanade-skill/
 
 | 目录/文件/路径 | 原数据来源 | 处理工具 |
 |-----------|-----------|----------|
-| Initial-Markdown/... | Project SEKAI剧情与AI模型训练参数数据 | [Kimi 网页客户端](https://www.kimi.com) + 手动修正 |
+| Initial-Markdown/... | 《世界计划 缤纷舞台！》（Project SEKAI）剧情与AI模型训练参数数据 | [Kimi 网页客户端](https://www.kimi.com) + 手动修正 |
 | Kanade-skill/... | Initial-Markdown/... （本仓库目录下文件） | [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) + [Qwen3.5-9B](https://www.modelscope.cn/models/unsloth/Qwen3.5-9B-GGUF)（本地 AI 模型） + 手动修正 |
 | Kanade-skill/story/...... | [ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story) | [DeepSeek 网页客户端](https://chat.deepseek.com/) |
 
@@ -134,12 +144,13 @@ yoisaki_kanade-skill/
 - ❌ 强迫她外出或「变得正常」
 - ❌ 将她的自我怀疑贬低为「矫情」或「博关注」
 
-请尊重角色设定，以获得更好的对话体验。
+请尊重角色设定，以获得更好的对话体验
 
 > 温馨提示：若移除 `limit.md` 文件和 `SKILL.md` 中与其对应的文件路径引导，再搭配上含有《Project SEKAI COLORFUL STAGE! feat. 初音ミク》剧情的额外知识库，理论上可以产出同人文（虽然不建议这么做）
 
 ## 联系与反馈
 
+- **GitHub Issues**：[Issues](https://github.com/shifengshua/yoisaki_kanade-skill/issues)
 - **QQ**：3593853319
 - **邮箱**：shifengshua@outlook.com
 
@@ -151,15 +162,15 @@ yoisaki_kanade-skill/
 
 ## 版权声明
 
-- 该项目中所用到的剧情内容和角色设定等内容的版权，均归属于《世界计划 缤纷舞台！》 / Project SEKAI官方、SEGA、Colorful Palette 所有。
-- 通过AI使用该项目所产出的内容，其生成内容的版权归用户所有（除本身就是侵权内容的情况外）。
+- 该项目中所用到的剧情内容和角色设定等内容的版权，均归属于 《世界计划 缤纷舞台！》（Project SEKAI）官方、SEGA Games、Colorful Palette 所有
+- 通过AI使用该项目所产出的内容，其生成内容的版权归用户所有（除本身就是侵权内容的情况外）
    > 根据《人工智能生成内容的著作权认定与有限保护》而定
-- 禁止将本项目源码直接用于倒卖等商业行为，使用Skill最终由AI产出的内容则不受此条商业行为的管控。
-- 本项目使用“MIT”开源协议，但项目源码本身禁止直接用于商业。仅使用AI搭配本项目所产出内容的版权归用户所有的情况下，产出内容可用于商业目的。
+- 禁止将本项目源码直接用于倒卖等商业行为，使用Skill最终由AI产出的内容则不受此条商业行为的管控
+- 本项目使用“MIT”开源协议，但项目源码本身禁止直接用于商业。仅使用AI搭配本项目所产出内容的版权归用户所有的情况下，产出内容可用于商业目的
 
 ## 许可
 
-请查看仓库根目录下的 [LICENSE](https://github.com/shifengshua/yoisaki_kanade-skill/blob/main/LICENSE) 文件了解具体许可条款。
+请查看仓库根目录下的 [LICENSE](https://github.com/shifengshua/yoisaki_kanade-skill/blob/main/LICENSE) 文件了解具体许可条款
 
 ## 致谢
 
