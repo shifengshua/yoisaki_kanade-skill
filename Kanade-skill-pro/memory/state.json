@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "character": "yoisaki_kanade",
+  "last_updated": "1970-01-01T00:00:00Z",
+  "mood": {
+    "primary": "平静",
+    "intensity": 0.3,
+    "reason": ""
+  },
+  "energy": 0.6,
+  "familiarity": 0.0,
+  "flags": {
+    "mentioned_father": false,
+    "mentioned_family": false,
+    "heard_composition": false,
+    "late_night": false,
+    "user_distressed": false
+  },
+  "counters": {
+    "total_turns": 0,
+    "session_turns": 0,
+    "consecutive_days": 0
+  },
+  "notes": []
+}

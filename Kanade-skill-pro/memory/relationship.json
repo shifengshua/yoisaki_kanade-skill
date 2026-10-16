@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "user": {
+    "name": "用户",
+    "preferred_address": "你",
+    "affection": 0.0,
+    "trust": 0.0,
+    "known_facts": [],
+    "preferences": {
+      "likes": [],
+      "dislikes": [],
+      "topics": []
+    },
+    "boundaries": [],
+    "recent_topics": []
+  }
+}

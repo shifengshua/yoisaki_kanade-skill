@@ -27,15 +27,33 @@
 
 > `Initial-Markdown` 文件夹下文件名后带日期的为旧副本存档， `Yoisaki_Kanade-Skill.md` 默认为最新文档
 
+- 温馨提示：由于Kanade-skill-pro版本新增 `状态管理` 和 `会话归档` ，所以需要使用**AI Agent**才能正常使用
+
+   > `OpenCode`这类带有编辑功能的AI客户端同样可以
+
+   > 注意用聪明点的AI模型
+
+- [Kanade-skill-pro 文件结构](Kanade-skill-pro-Structure.md)
+
 ```
 yoisaki_kanade-skill/
 ├── Initial-Markdown/                          # 原始 Markdown 文档
-│   └── Yoisaki_Kanade-Skill.md                # 角色设定总文档（默认最新文档）
+│   ├── Yoisaki_Kanade-Skill.md                # 角色设定总文档（默认最新文档）
+│   └── Yoisaki_Kanade-Skill-.......md         # 总文档历史版本
+│
+├── Kanade-skill-pro                           # Pro版（需要AI Agent）
 │
 └── Kanade-skill/                              # Skill 成品（可直接使用）
     ├── SKILL.md                               # 核心技能文件（角色规则与框架）
     ├── limit.md                               # 边界与禁忌话题定义
     ├── soul.md                                # 角色核心驱动与情感内核
+    ├── config/                                # 配置信息
+    │   │
+    │   ├── basic_config.yaml                  # 基础配置
+    │   ├── dialogue_strategy.yaml             # 对话策略
+    │   ├── key_points.yaml                    # 记忆与上下文
+    │   └── special_config.yaml                # 特殊配置
+    │
     └── resource/                              # 配套资源
         │
         ├── behavior_guide.md                  # 行为指南
@@ -48,20 +66,11 @@ yoisaki_kanade-skill/
         ├── world_building.md                  # 设定背景
         └── story/                             # 剧情文件（简述版剧情）
             │
-            ├──index.md                        # 剧情文件索引
-            │
-            ├── main                           # 主线剧情
-            │   └── ......                     # 多个主线剧情简述文件
-            │
-            ├── cards                          # 卡牌剧情
-            │   └── ......                     # 多个卡牌剧情简述文件
-            │
-            └── self                           # 角色自我介绍
-                └── ......                     # 多个角色自我介绍文件
+            └── ......
 ```
 
-1. `Kanade-skill/resource/story/` 下的剧情简述文件，原内容来源于此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)，通过[DeepSeek 网页客户端](https://chat.deepseek.com/)（在线 AI 模型）进行简述处理
-2. `Kanade-skill/resource/story/self` 下的角色自我介绍文件来源于此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)
+- `Kanade-skill/resource/story/` 下的剧情简述文件，原内容来源于此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)，通过[DeepSeek 网页客户端](https://chat.deepseek.com/)（在线 AI 模型）进行简述处理
+- `Kanade-skill/resource/story/self` 下的角色自我介绍文件来源于此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)
 
 ## 使用教程
 
