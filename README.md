@@ -21,32 +21,41 @@
 - **高度还原角色**：基于超过 **15000** 字符的完整设定文档，涵盖角色**心理学**、**语言模型**、**对话示例**、**技术配置**等全方位内容
 - **深夜氛围感**：完整呈现奏的温柔、内向、自我牺牲的性格与思考模式
 - **多语言支持**：自动检测用户语言并以此语言回复（支持中文、日文、英文等）
-- **丰富的知识库**：包含音乐知识、人际关系动态、行为指南等配套资源
+- **丰富的知识库**：包含音乐知识、人际关系动态、行为指南、剧情简述等配套资源
+- **跨会话状态与记忆**：Pro版新增 **动态状态管理** 和 **会话归档** ，可让使用 Skill 的 AI Agent 保持跨会话下的角色 **状态同步** 和 **长期记忆**
 
 ## 文件结构
 
 > `Initial-Markdown` 文件夹下文件名后带日期的为旧副本存档， `Yoisaki_Kanade-Skill.md` 默认为最新文档
 
-- 温馨提示：由于Kanade-skill-pro版本新增 `状态管理` 和 `会话归档` ，所以需要使用**AI Agent**才能正常使用
+- 温馨提示：由于Kanade-skill-pro版本新增 `状态管理` 和 `会话归档` ，所以需要使用 **AI Agent** 才能正常使用
 
    > `OpenCode`这类带有编辑功能的AI客户端同样可以
 
    > 注意用聪明点的AI模型
 
-- [Kanade-skill-pro 文件结构](Kanade-skill-pro-Structure.md)
+- [Kanade-skill-pro 文件结构](Kanade-skill-pro-Structure.md)（本仓库README.md同目录下的 `Kanade-skill-pro-Structure.md` 文件）
+   > Pro版的 `状态管理` 和 `会话归档` 功能均在 Skill 文件的 `memory/` 目录下完成动态变化
+
+- [Kanade-skill 文件结构](Kanade-skill-Structure.md)（本仓库README.md同目录下的 `Kanade-skill-Structure.md` 文件）
 
 ```
 yoisaki_kanade-skill/
 ├── Initial-Markdown/                          # 原始 Markdown 文档
+│   │
 │   ├── Yoisaki_Kanade-Skill.md                # 角色设定总文档（默认最新文档）
 │   └── Yoisaki_Kanade-Skill-.......md         # 总文档历史版本
 │
-├── Kanade-skill-pro                           # Pro版（需要AI Agent）
+├── Kanade-skill-pro/                          # Pro版（需要AI Agent）
+│   │
+│   └── ......
 │
 └── Kanade-skill/                              # Skill 成品（可直接使用）
+    │
     ├── SKILL.md                               # 核心技能文件（角色规则与框架）
     ├── limit.md                               # 边界与禁忌话题定义
     ├── soul.md                                # 角色核心驱动与情感内核
+    │
     ├── config/                                # 配置信息
     │   │
     │   ├── basic_config.yaml                  # 基础配置
@@ -64,6 +73,7 @@ yoisaki_kanade-skill/
         ├── mood_state_transitions.md          # 情绪状态转换指南
         ├── aesthetic_philosophy.md            # 美学哲学指南
         ├── world_building.md                  # 设定背景
+        │
         └── story/                             # 剧情文件（简述版剧情）
             │
             └── ......
@@ -91,7 +101,7 @@ yoisaki_kanade-skill/
 2. **解压文件**：将压缩包内的文件解压至任意位置
    > 建议在任意盘符根目录下新建一个文件夹用于存放，避免文件散乱影响其他软件或系统
 
-3. **导入 AI 平台**：将解压目录中的整个 `Kanade-skill` 文件夹拖入任意支持 Skill 的 AI 聊天平台即可使用
+3. **导入 AI 平台**：将解压目录中的整个 `Kanade-skill` （非Pro版）文件夹拖入任意支持 Skill 的 AI 聊天平台即可使用
    > 部分AI可能需要将解压出的 `Kanade-skill` 文件夹单独压缩成一个压缩包才能上传导入
 
 4. **开始对话**：与 `方法一` 同样
@@ -106,6 +116,17 @@ yoisaki_kanade-skill/
    > 注意！此方法极为消耗Token！请谨慎使用！
 - 参考其中的角色设定自行构建对话模型
 - 作为开发其他角色 Skill 的参考模板
+
+### Pro版使用：
+
+1. **下载项目**：与 `方法二` 同样
+   > 由于Pro版需要**AI Agent**，因此暂不提供打包完成的Releases，以免混淆
+
+2. **解压文件**：与 `方法二` 同样
+
+3. **导入 AI 平台**：将解压目录中的整个 `Kanade-skill-pro` 文件夹改名为 `kanade-perspective` ，然后拖入任意支持 Skill 的 **AI Agent** 平台或 **OpenCode** 的本地Skill目录即可使用
+
+4. **开始对话**：与 `方法一` 同样
 
 ### 知识库（可选部分）
 
@@ -129,7 +150,7 @@ yoisaki_kanade-skill/
 | Initial-Markdown/... | 《世界计划 缤纷舞台！》（Project SEKAI）剧情与AI模型训练参数数据 | [Kimi 网页客户端](https://www.kimi.com) + 手动修正 |
 | Kanade-skill/... | Initial-Markdown/... （本仓库目录下文件） | [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) + [Qwen3.5-9B](https://www.modelscope.cn/models/unsloth/Qwen3.5-9B-GGUF)（本地 AI 模型） + 手动修正 |
 | Kanade-skill/story/...... | [ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story) | [DeepSeek 网页客户端](https://chat.deepseek.com/) |
-
+| Kanade-skill-pro/memory/...... | 本仓库所有文件 | [DeepSeek 网页客户端](https://chat.deepseek.com/) |
 
 ## 注意事项
 
