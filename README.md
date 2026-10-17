@@ -124,7 +124,7 @@ yoisaki_kanade-skill/
 
 2. **解压文件**：与 `方法二` 同样
 
-3. **导入 AI 平台**：将解压目录中的整个 `Kanade-skill-pro` 文件夹改名为 `kanade-perspective` ，然后拖入任意支持 Skill 的 **AI Agent** 平台或 **OpenCode** 的本地Skill目录即可使用
+3. **导入 AI 平台**：将解压目录中的整个 `Kanade-skill-pro` 文件夹改名为 `kanade-perspective` ，然后将改名后的 `kanade-perspective` 文件夹拖入任意支持 Skill 的 **AI Agent** 平台或 **OpenCode** 的本地Skill目录即可使用
 
 4. **开始对话**：与 `方法一` 同样
 
