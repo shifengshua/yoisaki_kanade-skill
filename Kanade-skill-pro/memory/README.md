@@ -21,6 +21,7 @@
 2. relationship.json
 3. summary.md
 4. session.md
+5. timeline.md
 
 ## 结束写入顺序
 
