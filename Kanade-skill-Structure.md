@@ -5,13 +5,6 @@ Kanade-skill/                                  # Skill 成品（可直接使用�
     ├── limit.md                               # 边界与禁忌话题定义
     ├── soul.md                                # 角色核心驱动与情感内核
     │
-    ├── config/                                # 配置信息
-    │   │
-    │   ├── basic_config.yaml                  # 基础配置
-    │   ├── dialogue_strategy.yaml             # 对话策略
-    │   ├── key_points.yaml                    # 记忆与上下文
-    │   └── special_config.yaml                # 特殊配置
-    │
     └── resource/                              # 配套资源
         │
         ├── behavior_guide.md                  # 行为指南

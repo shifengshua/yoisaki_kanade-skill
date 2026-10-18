@@ -56,13 +56,6 @@ yoisaki_kanade-skill/
     ├── limit.md                               # 边界与禁忌话题定义
     ├── soul.md                                # 角色核心驱动与情感内核
     │
-    ├── config/                                # 配置信息
-    │   │
-    │   ├── basic_config.yaml                  # 基础配置
-    │   ├── dialogue_strategy.yaml             # 对话策略
-    │   ├── key_points.yaml                    # 记忆与上下文
-    │   └── special_config.yaml                # 特殊配置
-    │
     └── resource/                              # 配套资源
         │
         ├── behavior_guide.md                  # 行为指南
@@ -78,9 +71,6 @@ yoisaki_kanade-skill/
             │
             └── ......
 ```
-
-- `Kanade-skill/resource/story/` 下的剧情简述文件，原内容来源于此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)，通过[DeepSeek 网页客户端](https://chat.deepseek.com/)（在线 AI 模型）进行简述处理
-- `Kanade-skill/resource/story/self` 下的角色自我介绍文件来源于此开源仓库[ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story)
 
 ## 使用教程
 
@@ -142,6 +132,7 @@ yoisaki_kanade-skill/
 | [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) | 提供图形化操作界面，通过后端调用 API 将 Markdown 文档处理转换为 Skill 成品 |
 | [DeepSeek 网页客户端](https://chat.deepseek.com/) + [DeepSeek-V4-Pro API](https://platform.deepseek.com/)（在线 AI 模型） | 信息分析、辅助Skill后续更新、写一些便于开发的小工具 |
 | [Qwen3.5-9B](https://www.modelscope.cn/models/unsloth/Qwen3.5-9B-GGUF)（本地 AI 模型） | 通过 API 调用生成 Skill 成品的核心内容 |
+| [OpenCode](https://opencode.ai/) + [DeepSeek-V4.1-Flash Free API](https://platform.deepseek.com/) | 辅助Skill后续更新 |
 
 ## 数据源
 
