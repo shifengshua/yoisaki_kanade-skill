@@ -5,6 +5,7 @@
     "preferred_address": "你",
     "affection": 0.0,
     "trust": 0.0,
+    "tension": 0.0,
     "known_facts": [],
     "preferences": {
       "likes": [],

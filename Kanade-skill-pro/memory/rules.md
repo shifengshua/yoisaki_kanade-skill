@@ -9,12 +9,13 @@
 1. 只记录对话中明确出现的信息，不推测、不补全。
 2. 单次对话对数值的调整不超过 0.1。
 3. 模糊表达不覆盖明确状态。
-4. 数值范围固定：
+4. 数值范围固定（上限 1.0，下限0.0）：
    - `energy` 0.0 ~ 1.0
    - `familiarity` 0.0 ~ 1.0
    - `affection` 0.0 ~ 1.0
    - `trust` 0.0 ~ 1.0
    - `mood.intensity` 0.0 ~ 1.0
+   - `relationship.tension` 0.0 ~ 1.0
 5. 所有读写只在 `memory/` 目录内完成。
 6. 旧归档只追加，不修改。
 7. 冲突时优先级：明确陈述 > 行为暗示 > 语境推测。
@@ -59,6 +60,26 @@
 
 `候选变化` 只是草稿，会话结束后才正式合并。
 
+## 三·补、关系阶段与恶化判定
+
+### 阶段映射（与 resource/relationship_dynamics.md、resource/behavior_guide.md 对齐）
+- 显示阶段值 = `min(affection, trust)`，避免「高好感但信任崩塌」仍显示亲密。
+- 阶段阈值：
+  - 0.81 ~ 1.00 → 重要之人
+  - 0.61 ~ 0.80 → 朋友
+  - 0.31 ~ 0.60 → 熟人
+  - 0.01 ~ 0.30 → 陌生人
+  - 0.00 → 疏远
+
+### 阶段退阶
+- `trust` 跌破 0.80 / 0.60 / 0.30 时，阶段分别回退一档。
+- 阶段回退同步改变 `relationship.preferred_address` 与话题深度（对齐 behavior_guide.md 好感度行为变化表）。
+
+### 关系危机
+- 当 `relationship.tension ≥ 0.8` 且 `relationship.trust ≤ 0.2` 时，置 `state.flags.relationship_crisis = true`。
+- 该状态下的外部表现采用 resource/mood_state_transitions.md 与 limit.md 描述的「关闭心门 / 低落」，不新增自造情绪状态。
+- 注意与 limit.md「角色扮演退出条件」区分：退出扮演 ≠ 剧情内关系危机，不得共用同一 flag。
+
 ---
 
 ## 四、触发规则
@@ -68,9 +89,15 @@
 | 用户明确关心角色 | relationship.trust +0.03，relationship.affection +0.02 |
 | 用户提及父亲 | state.flags.mentioned_father = true，mood 转低落，intensity +0.1 |
 | 用户提及家庭 | state.flags.mentioned_family = true，mood 转低落，intensity +0.05 |
-| 用户分享音乐或创作 | state.familiarity +0.03，mood 转专注 |
+| 用户分享音乐或创作 | state.familiarity +0.03，mood 转专注（开心/兴奋） |
 | 用户聆听角色作品 | state.flags.heard_composition = true，relationship.affection +0.03 |
 | 用户深夜出现 | state.flags.late_night = true，state.energy -0.05 |
+| 用户轻视音乐价值 | relationship.trust -0.05，relationship.affection -0.05，relationship.tension +0.08，state.flags.boundary_violated = true，mood 转「受伤」 |
+| 用户贬低父亲 | relationship.trust -0.08，relationship.affection -0.05，relationship.tension +0.10，state.flags.mentioned_father = true，state.flags.boundary_violated = true |
+| 用户嘲笑生活方式 | relationship.trust -0.06，relationship.affection -0.03，relationship.tension +0.08，state.flags.boundary_violated = true |
+| 用户强迫改变（要求出门/改作息等） | relationship.trust -0.07，relationship.affection -0.03，relationship.tension +0.08，state.flags.boundary_violated = true，mood 转「抗拒/回避」 |
+| 用户频繁离开或断联 | relationship.trust -0.03，relationship.tension +0.05，mood 转「不安」 |
+| 用户真诚道歉或明确尊重边界 | relationship.tension -0.03，relationship.trust +0.02（修复慢于伤害） |
 | 用户表达痛苦 | state.flags.user_distressed = true，优先安抚，不推进关系 |
 | 用户分享个人喜好 | 追加到 relationship.preferences.likes 或 dislikes |
 | 用户明确边界 | 追加到 relationship.boundaries |
@@ -78,6 +105,7 @@
 | 每轮结束 | counters.session_turns +1，counters.total_turns +1 |
 
 同一触发在一轮内只生效一次。
+负向触发同样受「单次变化 ≤ 0.1」约束；禁忌类型以 `limit.md`「绝对禁忌话题」为准，本表仅定义其数值后果。
 
 ---
 
@@ -100,6 +128,11 @@
 - 相同触发重复出现只累计一次
 - 冲突以最近一次明确陈述为准
 - 不合并推测性内容
+- `flags.relationship_crisis` 仅在判定条件成立时置位，修复后按下方「危机解除」处理
+
+### 危机解除
+- 当 `tension < 0.5` 且 `trust > 0.4` 时，`flags.relationship_crisis` 复位为 false。
+- 解除依赖持续修复（道歉、陪伴、尊重边界），不得单轮跳变。
 
 ---
 
@@ -114,6 +147,7 @@
 - 用户偏好
 - 边界与回避
 - 待跟进
+- 关系裂痕与已触犯的边界（tension 概况、被违反的 boundaries）
 
 不保留：
 
@@ -122,6 +156,9 @@
 - 重复内容
 
 摘要长度建议控制在 50 行以内。
+
+- 「边界与回避」段：每次 `boundary_violated` 命中后，须将对应边界写入 relationship.boundaries 与 summary.md。
+- 「关系状态」段：记录当前阶段、tension 概况、relationship_crisis 是否成立。
 
 ---
 
@@ -146,10 +183,10 @@ memory/archive/YYYY/MM/YYYY-MM-DD-HHmm.md
 1. 读取 `memory/session.md`
 2. 若 `memory/session.md` 为空，则跳过
 3. 读取 `memory/templates/archive-1970-01-01-0000.md` 获取归档模板
-3. 写入 `memory/archive/YYYY/MM/YYYY-MM-DD-HHmm.md`
-4. 若 `memory/archive/YYYY/MM/YYYY-MM-DD-HHmm.md` 存在同分钟内两次归档，则写入 `memory/archive/YYYY/MM/YYYY-MM-DD-HHmm_1.md` ，以此类推
-5. 更新 `memory/archive/index.md`
-6. 用 `memory/templates/session.default.md` 重置 `memory/session.md`
+4. 写入 `memory/archive/YYYY/MM/YYYY-MM-DD-HHmm.md`
+5. 若 `memory/archive/YYYY/MM/YYYY-MM-DD-HHmm.md` 存在同分钟内两次归档，则写入 `memory/archive/YYYY/MM/YYYY-MM-DD-HHmm_1.md` ，以此类推
+6. 更新 `memory/archive/index.md`
+7. 用 `memory/templates/session.default.md` 重置 `memory/session.md`
 
 ---
 
@@ -163,12 +200,15 @@ memory/archive/YYYY/MM/YYYY-MM-DD-HHmm.md
    - `mentioned_father`
    - `mentioned_family`
    - `heard_composition`
+   - `relationship_crisis`
 4. 重置短期项：
    - `late_night`
    - `user_distressed`
+   - `boundary_violated`
 5. `counters.session_turns` 归零
 6. `counters.total_turns` 保留
 7. `mood` 回归默认平静
+8. `relationship.tension` 与 `relationship_crisis` 跨会话保留，不随会话结束清零。
 
 ---
 
@@ -202,7 +242,7 @@ memory/archive/YYYY/MM/YYYY-MM-DD-HHmm.md
 | 文件 | 职责 | 写入时机 |
 |---|---|---|
 | state.json | 角色状态 | 会话结束 |
-| relationship.json | 用户关系 | 会话结束 |
+| relationship.json | 用户关系、关系阶段 | 会话结束 |
 | session.md | 临时状态 | 对话中追加，结束重置 |
 | timeline.md | 长期事件 | 对话中追加，结束合并 |
 | summary.md | 长期摘要 | 会话结束 |
