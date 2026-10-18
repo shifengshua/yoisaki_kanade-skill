@@ -22,12 +22,3 @@
 3. summary.md
 4. session.md
 5. timeline.md
-
-## 结束写入顺序
-
-1. timeline.md
-2. session.md
-3. state.json
-4. relationship.json
-5. summary.md
-6. archive/

@@ -6,6 +6,7 @@
     "affection": 0.0,
     "trust": 0.0,
     "tension": 0.0,
+    "boundary_violations":[],
     "known_facts": [],
     "preferences": {
       "likes": [],
