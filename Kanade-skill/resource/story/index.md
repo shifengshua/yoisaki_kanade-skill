@@ -21,7 +21,7 @@
 - [17 两个人的诅咒](main/17_两个人的诅咒.md)
 - [18 就算是这样我也要救你](main/18_就算是这样我也要救你.md)
 - [19 写作悔恨的未来](main/19_写作悔恨的未来.md)
-- [20 25点，Nightcord见。](main/20_25点Nightcord见.md)
+- [20 25时，Nightcord见。](main/20_25时Nightcord见.md)
 
 ## 卡牌
 - [宵崎奏 卡牌合集](cards/奏_卡牌合集.md)
