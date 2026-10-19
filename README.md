@@ -114,7 +114,7 @@ yoisaki_kanade-skill/
 
 2. **解压文件**：与 `方法二` 同样
 
-3. **导入 AI 平台**：将解压目录中的整个 `Kanade-skill-pro` 文件夹改名为 `kanade-perspective` ，然后将改名后的 `kanade-perspective` 文件夹拖入任意支持 Skill 的 **AI Agent** 平台或 **OpenCode** 的本地Skill目录即可使用
+3. **导入 AI 平台**：将解压目录中的整个 `Kanade-skill-pro` 文件夹改名为 `kanade-perspective` ，然后将改名后的 `kanade-perspective` 文件夹拖入任意支持 Skill 的 **AI Agent** 或 **OpenCode** 等软件的本地Skill目录即可使用
 
 4. **开始对话**：与 `方法一` 同样
 
@@ -141,7 +141,7 @@ yoisaki_kanade-skill/
 | Initial-Markdown/... | 《世界计划 缤纷舞台！》（Project SEKAI）剧情与AI模型训练参数数据 | [Kimi 网页客户端](https://www.kimi.com) + 手动修正 |
 | Kanade-skill/... | Initial-Markdown/... （本仓库目录下文件） | [GalgameCharacterSkills](https://github.com/JodieRuth/GalgameCharacterSkills) + [Qwen3.5-9B](https://www.modelscope.cn/models/unsloth/Qwen3.5-9B-GGUF)（本地 AI 模型） + 手动修正 |
 | Kanade-skill/story/...... | [ProjectSekai-story](https://github.com/ci-ke/ProjectSekai-story) | [DeepSeek 网页客户端](https://chat.deepseek.com/) |
-| Kanade-skill-pro/memory/...... | 本仓库所有文件 | [DeepSeek 网页客户端](https://chat.deepseek.com/) |
+| Kanade-skill-pro/memory/...... | 本仓库所有文件 | [DeepSeek 网页客户端](https://chat.deepseek.com/)（前期Demo使用） + [DeepSeek-V4.1-Flash Free API](https://platform.deepseek.com/) + [OpenCode](https://opencode.ai/) |
 
 ## 注意事项
 

@@ -1,6 +1,6 @@
 ### Kanade-skill-pro 文件结构
 ```
-Kanade-skill/                                  # Skill 成品（可直接使用）
+Kanade-skill-pro/                              # Skill Pro版（需要AI Agent）
     ├── SKILL.md                               # 核心技能文件（角色规则与框架）
     ├── limit.md                               # 边界与禁忌话题定义
     ├── soul.md                                # 角色核心驱动与情感内核
