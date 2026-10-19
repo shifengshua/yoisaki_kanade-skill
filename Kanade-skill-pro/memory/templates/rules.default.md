@@ -62,10 +62,10 @@
 
 ## 三.补充、关系阶段与恶化判定
 
-- `min(affection, trust)` 值来自 `relationship.user` 字段
+- `average(affection, trust)` 值来自 `relationship.user` 字段
 
 ### 阶段映射
-- 显示阶段值 = `min(affection, trust)`，避免「高好感但信任崩塌」仍显示亲密。
+- 显示阶段值 = `average(affection, trust)`
 - 阶段阈值：
   - 0.81 ~ 1.00 → 重要之人
   - 0.61 ~ 0.80 → 朋友
@@ -73,7 +73,7 @@
   - 0.00 ~ 0.30 → 陌生人
 
 ### 阶段退阶
-- 当 `min(affection, trust)` 跌破 0.80 / 0.60 / 0.30 时，阶段分别回退一档。
+- 当 `average(affection, trust)` 跌破 0.80 / 0.60 / 0.30 时，阶段分别回退一档。
 - 阶段回退同步改变 `relationship.user.preferred_address` 与话题深度（对齐 `../behavior_guide.md` 好感度行为变化表）。
 
 ### 关系危机

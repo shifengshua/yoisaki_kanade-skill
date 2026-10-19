@@ -3,8 +3,8 @@
   "user": {
     "name": "用户",
     "preferred_address": "你",
-    "affection": 0.0,
-    "trust": 0.0,
+    "affection": 0.5,
+    "trust": 0.5,
     "tension": 0.0,
     "boundary_violations":[],
     "known_facts": [],
